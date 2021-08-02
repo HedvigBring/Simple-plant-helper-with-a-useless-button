@@ -30,7 +30,7 @@ I decided on this particular project to be able to keep better track of my plant
 
 I chose to work with the Pycom LoPy4 partly because it was the recommended one for the course, but also because their [documentation](https://docs.pycom.io) is very good for beginners in IoT. It provides all the necessary functionality for the intended project. 
 
-### Computer setup
+### Computer Setup
 
 I went with [Visual Studio Code](https://code.visualstudio.com) (henceforth called VSCode) in this project since I have previous experience with this particular IDE. VSCode has an extension called Pymakr that allows us to have a REPL console in the terminal of VSCode, this can be found under the Extensions tab to the left in the IDE. The REPL console is where we upload the code to the device, simply using the 'upload' button at the bottom. In the REPL console you can also run the current file without uploading it, this is handy for testing out code snippets.
 
@@ -38,7 +38,7 @@ Another extension that might be useful is the Python language extension, this he
 
 With these two extensions you should not have to worry about installing python or anything else since everything is already taken care of. 
 
-### Putting everything together
+### Putting Everything Together
 
 I've put all my sensors on the breadboard, which is connected to the pycoms 3.3V power and ground. I chose to use 3.3 for all the sensors, including ones that normally would run on on 5V, since they seem to work equally well at a lower voltage (at least for this project). 
 
@@ -83,7 +83,7 @@ Since the device is only meant for indoor/home use, the wifi should provide suff
 
 The only file in my lib folder is dht.py, which is providing functionality for the DHT11 sensor so that it provides relevant data. For simplicity's sake I used an [existing dht file for this.](https://github.com/iot-lnu/applied-iot/blob/master/sensor-examples/DHT11%20%26%20DHT22%20-%20Humidity%20%26%20Temperature%20Sensor/lib/dht.py)
 
-### Transmitting the data
+### Transmitting the Data
 
 As mentioned above I used wifi for the data transmission and the pybytes library is used for sending the data to pybytes. This is very simple once you've [provisioned your device for use with pybytes](https://docs.pycom.io/pybytes/gettingstarted/). What protocol pybytes use internally isn't amazingly clear but it looks like a simple JSON post using HTTP/TCP. 
 ```
