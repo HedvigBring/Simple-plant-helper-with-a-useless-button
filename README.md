@@ -103,4 +103,23 @@ It sleeps for 600 seconds to only send the data every half hour.
 
 ### Presenting the Data
 
+The data is saved for up to a month, and it is saved when it's sent, which in this case means every half hour. Pybytes provide several different types of graphs to use to visualise the data, I have chosen line charts as I think they work best for the intended purposes.
 
+![graphs](https://github.com/HedvigBring/Simple-plant-helper-with-a-useless-button/blob/main/graphs.JPG)
+
+![temperature](https://github.com/HedvigBring/Simple-plant-helper-with-a-useless-button/blob/main/graphs/temperature.png)
+![humidity](https://github.com/HedvigBring/Simple-plant-helper-with-a-useless-button/blob/main/graphs/humidity.png)
+![humidity](https://github.com/HedvigBring/Simple-plant-helper-with-a-useless-button/blob/main/graphs/soilmoisture.png)
+
+### Finalizing the Design
+
+The soil sensor I used was put into my Dragon Blood tree seen below: 
+
+![soil probe](https://github.com/HedvigBring/Simple-plant-helper-with-a-useless-button/blob/main/Probe.jpg)
+![dragonblood](https://github.com/HedvigBring/Simple-plant-helper-with-a-useless-button/blob/main/plant.jpg)
+
+And the final device + breadboard looks like this:
+
+![device](https://github.com/HedvigBring/Simple-plant-helper-with-a-useless-button/blob/main/device.jpg)
+
+While the finished thing works as intended, I also intend to further develop it. The end goal is to connect it to a battery to make it portable, and then do the readings when you push the button, instead of continously every half our as it does now. This would allow me to use the device on  several plants and I could check the soil of each one to see if they need water or not. Overall I am happy with the result, but eager to improve it.
