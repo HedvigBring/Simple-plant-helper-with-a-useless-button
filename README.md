@@ -14,7 +14,7 @@ With a bit of experience it should take no longer than 2 hours to complete, for 
 
 ### Objective
 
-I decided on this particular project to be able to keep better track of my plants and their needs. Having clear readings and access to past data will make it easier to determine what the plants need and what they thrive from. To facilitate this in the best way possible, I choose to monitor temperature, air humidity and soil moisture, as these three are vital for a lot of plants. The device should give better insight for people who are struggling with knowing when to water their plants, or why their plants are dying in general. 
+I decided on this particular project to be able to keep better track of my plants and their needs. Having clear readings and access to past data will make it easier to determine what the plants need and what they thrive from. To facilitate this in the best way possible, I chose to monitor temperature, air humidity and soil moisture, as these three are vital for a lot of plants. The device should give better insight for people who are struggling with knowing when to water their plants, or why their plants are dying in general. 
 
 ### Material
 
@@ -39,7 +39,7 @@ Another extension that might be useful is the Python language mode, this helps w
 
 ### Putting the components together
 
-I've put all my sensors on the breadboard, which is connected to the pycoms 3.3V power and ground. I choose to use 3.3 for all the sensors, including ones that normally would run on on 5V, since they seem to work equally well at a lower voltage (at least for this project). 
+I've put all my sensors on the breadboard, which is connected to the pycoms 3.3V power and ground. I chose to use 3.3 for all the sensors, including ones that normally would run on on 5V, since they seem to work equally well at a lower voltage (at least for this project). 
 
 Below is a fritzing diagram showing how everything is connected. The Soil Mositure sensor needed an ADC channel, this is important to keep in mind when choosing an appropriate pin. 
 
