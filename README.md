@@ -1,9 +1,12 @@
 # Simple-plant-helper-with-a-useless-button
 Humidity, temperature, soil moisture and a button that makes the led go wild. 
 
+____________________________________________________________________
+
 ## Tutorial on how to build a temperature, humidity and soil moisture sensor, with an additional disco button
 
 by: Hedvig Bring Sellin
+
 hb222uc
 
 ### Project Overview
