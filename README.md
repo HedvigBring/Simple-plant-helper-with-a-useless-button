@@ -100,9 +100,10 @@ while True:
     time.sleep(600)
 ```
 It sleeps for 600 seconds to only send the data every ten minutes.
+
 ### Presenting the Data
 
-The data is saved for up to a month, and it is saved when it's sent, which in this case means every half hour. Pybytes provide several different types of graphs to use to visualise the data, I have chosen line charts as I think they work best for the intended purposes.
+The data is saved for up to a month, and it is saved when it's sent, which in this case means every ten minutes. Pybytes provide several different types of graphs to use to visualise the data, I have chosen line charts as I think they work best for the intended purposes.
 
 ![graphs](https://github.com/HedvigBring/Simple-plant-helper-with-a-useless-button/blob/main/graphs.JPG)
 
