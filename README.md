@@ -19,8 +19,8 @@ I decided on this particular project to be able to keep better track of my plant
 
 | Thing         | Description         | Price (link) |
 | ------------- |:-------------:| -----:|
-| LoPy4     | micro controller | (part of bundle) [949 SEK](https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-lopy4-and-sensors-bundle/) |
-| Pycom v3.1    | expansion board      |   (part of bundle) [949 SEK](https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-lopy4-and-sensors-bundle/) |
+| LoPy4     | micro controller/development board - programmable device for MicroPython | (part of bundle) [949 SEK](https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-lopy4-and-sensors-bundle/) |
+| Pycom v3.1    | expansion board - facilitates USB and pin connections |   (part of bundle) [949 SEK](https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-lopy4-and-sensors-bundle/) |
 | Breadboard | connection device     | (part of bundle) [949 SEK](https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-lopy4-and-sensors-bundle/) |
 | Jumper Wire | male-to-male     | (part of bundle) [949 SEK](https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-lopy4-and-sensors-bundle/) |
 | DHT11 | Digital humidity and temperature sensor    | (part of sensor bundle) [299 SEK](https://www.electrokit.com/produkt/sensor-kit-26-moduler/) |
