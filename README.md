@@ -85,7 +85,7 @@ The only file in my lib folder is dht.py, which is providing functionality for t
 
 ### Transmitting the data
 
-As mentioned above I used wifi for the data transmission and the pybytes library is used for sending the data to pybytes. This is very simple once you've [provisioned your device for use with pybytes](https://docs.pycom.io/pybytes/gettingstarted/).
+As mentioned above I used wifi for the data transmission and the pybytes library is used for sending the data to pybytes. This is very simple once you've [provisioned your device for use with pybytes](https://docs.pycom.io/pybytes/gettingstarted/). What protocol pybytes use internally isn't amazingly clear but it looks like a simple JSON post using HTTP/TCP. 
 ```
 while True:
     result = th.read()
