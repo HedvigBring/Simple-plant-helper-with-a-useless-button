@@ -38,7 +38,7 @@ Another extension that might be useful is the Python language extension, this he
 
 With these two extensions you should not have to worry about installing python or anything else since everything is already taken care of. 
 
-### Putting the components together
+### Putting everything together
 
 I've put all my sensors on the breadboard, which is connected to the pycoms 3.3V power and ground. I chose to use 3.3 for all the sensors, including ones that normally would run on on 5V, since they seem to work equally well at a lower voltage (at least for this project). 
 
