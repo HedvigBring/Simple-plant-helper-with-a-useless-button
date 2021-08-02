@@ -80,7 +80,7 @@ The setup of the channels and the imports can be found in the [main.py file.](ht
 It connects to the wifi in the [boot.py file](https://github.com/HedvigBring/Simple-plant-helper-with-a-useless-button/blob/main/boot.py). 
 Since the device is only meant for indoor/home use, the wifi should provide sufficient connection provided the home isn't too vast.
 
-The only file in my lib folder is dht.py, which is providing functionality for the DHT11 sensor so that it provides relevant data. For simplicity's sake I used an [existing dht file for this.](https://github.com/iot-lnu/applied-iot/blob/master/sensor-examples/DHT11 %26 DHT22 - Humidity %26 Temperature Sensor/lib/dht.py)
+The only file in my lib folder is dht.py, which is providing functionality for the DHT11 sensor so that it provides relevant data. For simplicity's sake I used an [existing dht file for this.](https://github.com/iot-lnu/applied-iot/blob/master/sensor-examples/DHT11%20%26%20DHT22%20-%20Humidity%20%26%20Temperature%20Sensor/lib/dht.py)
 
 ### Transmitting the data
 
