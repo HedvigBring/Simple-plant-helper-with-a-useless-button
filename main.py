@@ -42,6 +42,6 @@ while True:
     pybytes.send_signal(3, 1023 - val)
     print('sent signal {}'.format(result.temperature))
     print('sent signal {}'.format(result.humidity))
-    print("Value", val)
+    print('sent signal {}'.format(1023 - val))
 
     time.sleep(600)
