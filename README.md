@@ -100,7 +100,7 @@ while True:
 
     time.sleep(600)
 ```
-It sleeps for 600 seconds to only send the data every ten minutes.
+It sleeps for 600 seconds to only send the data roughly every ten minutes.
 
 ### Presenting the Data
 
