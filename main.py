@@ -25,11 +25,11 @@ pycom.rgbled(0x00FF00)  # Green
 
 def btn_callback_pressed(p):
     pycom.rgbled(0xFF0000)  # Red
-    val = apin()
-    print(val)
     time.sleep(1)
-
+    pycom.rgbled(0x0000FF)  # Blue
+    time.sleep(1)
     pycom.rgbled(0x00FF00)  # Green
+    time.sleep(1)
 
 btn.callback(Pin.IRQ_RISING, handler=btn_callback_pressed)
 
@@ -42,8 +42,6 @@ while True:
     pybytes.send_signal(3, 1023 - val)
     print('sent signal {}'.format(result.temperature))
     print('sent signal {}'.format(result.humidity))
-    print("Temperature: %d C" % result.temperature)
-    print("Humidity: %d %%" % result.humidity)
     print("Value", val)
 
     time.sleep(600)
