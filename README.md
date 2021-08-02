@@ -99,8 +99,7 @@ while True:
 
     time.sleep(600)
 ```
-It sleeps for 600 seconds to only send the data every half hour. 
-
+It sleeps for 600 seconds to only send the data every ten minutes.
 ### Presenting the Data
 
 The data is saved for up to a month, and it is saved when it's sent, which in this case means every half hour. Pybytes provide several different types of graphs to use to visualise the data, I have chosen line charts as I think they work best for the intended purposes.
@@ -122,6 +121,6 @@ And the final device + breadboard looks like this:
 
 ![device](https://github.com/HedvigBring/Simple-plant-helper-with-a-useless-button/blob/main/device.jpg)
 
-While the finished thing works as intended, I also intend to further develop it. The end goal is to connect it to a battery to make it portable, and then do the readings when you push the button, instead of continously every half our as it does now. This would allow me to use the device on  several plants and I could check the soil of each one to see if they need water or not. Overall I am happy with the result, but eager to improve it.
+While the finished thing works as intended, I also intend to further develop it. The end goal is to connect it to a battery to make it portable, and then do the readings when you push the button, instead of continously every ten minutes as it does now. This would allow me to use the device on several plants and I could check the soil of each one to see if they need water or not. Overall I am happy with the result, but eager to improve it.
 
-I had never worked with IoT devices before so this gave an exciting insight into the possibilites. While the project I choose is not the most complex one, I felt it was a nice, soft introduction to the topic, and something to build upon in the future.
+I had never worked with IoT devices before so this gave me an exciting insight into the possibilities. While the project I choose is not the most complex one, I felt it was a nice, soft introduction to the topic, and something to build upon in the future.
