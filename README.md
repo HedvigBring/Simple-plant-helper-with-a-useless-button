@@ -33,7 +33,7 @@ I chose to work with the Pycom LoPy4 partly because it was the recommended one f
 
 ### Computer setup
 
-I went with [Visual Studio Code](https://code.visualstudio.com) (henceforth called VSCode) in this project since I have previous experience with this particular IDE. VSCode has a plugin called Pymakr that allows us to have a REPL console in the terminal of VSCode, this can be found under the Extensions tab. The REPL console if where we upload the code to the device, simply using the 'upload' button at the bottom.
+I went with [Visual Studio Code](https://code.visualstudio.com) (henceforth called VSCode) in this project since I have previous experience with this particular IDE. VSCode has a plugin called Pymakr that allows us to have a REPL console in the terminal of VSCode, this can be found under the Extensions tab. The REPL console is where we upload the code to the device, simply using the 'upload' button at the bottom.
 
 Another extension that might be useful is the Python language mode, this helps with intellisense.
 
