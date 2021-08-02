@@ -47,7 +47,7 @@ Below is a fritzing diagram showing how everything is connected. The Soil Mositu
 
 Since all the sensors I used had built in resistors, no extra resistors were used. 
 
-This setup with the breadboard is mainly for development purposes, however the expansion board can also be connected to a normal socket via a USB connector. To make the creation easier to work with and also easier to move around, I printed a ![small case](https://github.com/HedvigBring/Pycom-Breadboard-Case) to hold the breadboard and expansion board.
+This setup with the breadboard is mainly for development purposes, however the expansion board can also be connected to a normal socket via a USB connector. To make the creation easier to work with and also easier to move around, I printed a [small case](https://github.com/HedvigBring/Pycom-Breadboard-Case) to hold the breadboard and expansion board.
 
 ### Platform
 
