@@ -3,7 +3,6 @@ Humidity, temperature, soil moisture and a button that makes the led go wild.
 
 ## Tutorial on how to build a temperature, humidity and soil moisture sensor, with an additional disco button
 
-### Disco Plant Sensor
 by: Hedvig Bring Sellin
 hb222uc
 
